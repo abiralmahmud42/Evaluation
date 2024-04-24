@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    height: 550px;
+    overflow-y: scroll;
+}
+
+.first {
+    margin: 10%;
+    font-size: 14px;
+}
+
+.bigger-text {
+    font-size: 48px;
+}
+
+button {
+    padding: 20px;
+    font-size: 26px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.third {
+    position: absolute;
+    left: 2%;
+    bottom: -1%;
+}
+
+
